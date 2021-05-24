@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Atomic+Age|Permanent+Marker|Monoton|Pacifico|Fascinate&display=swap");
+
+body,
+html {
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.fixit {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar_color {
+  background-color: black;
+}
+
+.navbar_line {
+  border: solid 0.5px white;
+}
+
+.nav_right {
+  text-align: right;
+  margin-left: auto;
+  font-size: 20px;
+}
+.nav_right {
+  margin-left: 16em;
+}
+
+.index {
+  height: 100%;
+  background-image: url("images/714520.png");
+  padding-top: 23%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name {
+  font-size: 80px;
+  text-shadow: 4px 4px black;
+}
+
+.typer {
+  font-size: 50px;
+  text-shadow: 4px 4px black;
+}
+.desc {
+  font-size: 25px;
+}
+.down {
+  font-size: 50px;
+}
+
+.txt-type > .txt {
+  margin-left: px;
+  border-right: 0.3rem solid #fff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.skill_image {
+  height: 100px;
+  width: 100px;
+}
+
+.invert_effect {
+  filter: invert(100%);
+}
+.sql_width {
+  width: 105px;
+}
+
+.social {
+  margin: 10px;
+}
+
+.about_me {
+  font-size: 22px;
+  color: #d3d3d3;
+}
+.projects {
+  background-color: black;
+}
+.c_title {
+  font-size: 31px;
+}
+
+@media only screen and (max-width: 600px) {
+  .index {
+    background-color: black;
+  }
+  #name {
+    font-size: 40px;
+  }
+  .typer {
+    font-size: 40px;
+  }
+  .desc {
+    font-size: 18px;
+  }
+  .about_me {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .nav_right {
+    margin-left: 0px;
+    margin-right: 1px;
+  }
+
+  .card_width {
+    width: 28rem;
+  }
+  iframe {
+    width: 446px;
+  }
+}
